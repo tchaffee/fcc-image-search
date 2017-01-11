@@ -84,6 +84,11 @@ app.get('/*', function (req, res) {
 
   insertSearch(req.params[0]);
 
+  if ( ! req.params[0]) {
+    res.send('You need to specify a search query at the end of the URL.');
+    return;
+  }
+
   client.search(req.params[0], { page: req.query.offset })
     .then(function (images) {
       
