@@ -1,0 +1,25 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Image Search Abstraction Layer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchaffee/fcc-image-search.git"
+  },
+  "author": "Todd Chaffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchaffee/fcc-image-search/issues"
+  },
+  "homepage": "https://github.com/tchaffee/fcc-image-search#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "google-images": "^2.0.0",
+    "got": "^6.7.1",
+    "querystring": "^0.2.0"
+  }
+}
